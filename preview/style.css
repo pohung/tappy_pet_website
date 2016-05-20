@@ -116,6 +116,7 @@ video::-webkit-media-controls {
 .pet_image {
   padding: 5pt;
   width: 50pt;
+  height: 50pt;
 }
 
 .title_image {
