@@ -107,16 +107,11 @@ a:hover {
   content: url(pets/gnome_tapped.png);
 }
 
-video::-webkit-media-controls {
-  display:none !important;
-}
-
 @media screen and (max-width: 720px) {
 
 .pet_image {
   padding: 5pt;
   width: 50pt;
-  height: 50pt;
 }
 
 .title_image {

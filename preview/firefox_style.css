@@ -1,0 +1,96 @@
+
+@-moz-document url-prefix() {
+
+.pet_image:after {
+  content: '';
+  display: inline-block;
+  background-size: 130pt;
+  width: 0;
+  height: 0;
+  padding: 65pt;
+}
+
+.cat_image:after {
+  background-image: url(pets/cat.png);
+}
+
+.cat_image:active:after {
+  background-image: url(pets/cat_tapped.png);
+}
+
+.octo_image:after {
+  background-image: url(pets/octo.png);
+}
+
+.octo_image:active:after {
+  background-image: url(pets/octo_tapped.png);
+}
+
+.pirate_image:after {
+  background-image: url(pets/pirate.png);
+}
+
+.pirate_image:active:after {
+  background-image: url(pets/pirate_tapped.png);
+}
+
+.powerplant_image:after {
+  background-image: url(pets/powerplant.png);
+}
+
+.powerplant_image:active:after {
+  background-image: url(pets/powerplant_tapped.png);
+}
+
+.boombox_image:after {
+  background-image: url(pets/boombox.png);
+}
+
+.boombox_image:active:after {
+  background-image: url(pets/boombox_tapped.png);
+}
+
+.apple_image:after {
+  background-image: url(pets/apple.png);
+}
+
+.apple_image:active:after {
+  background-image: url(pets/apple_tapped.png);
+}
+
+.statue_image:after {
+  background-image: url(pets/statue.png);
+}
+
+.statue_image:active:after {
+  background-image: url(pets/statue_tapped.png);
+}
+
+.teapot_image:after {
+  background-image: url(pets/teapot.png);
+}
+
+.teapot_image:active:after {
+  background-image: url(pets/teapot_tapped.png);
+}
+
+.gnome_image:after {
+  background-image: url(pets/gnome.png);
+}
+
+.gnome_image:active:after {
+  background-image: url(pets/gnome_tapped.png);
+}
+
+@media screen and (max-width: 720px) {
+
+.pet_image:after {
+  content: '';
+  display: inline-block;
+  background-size: 50pt;
+  width: 0;
+  height: 0;
+  padding: 25pt;
+}
+
+}
