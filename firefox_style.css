@@ -14,7 +14,7 @@
   background-image: url(pets/cat.png);
 }
 
-.cat_image:active:after {
+.cat_image:focus:hover:after {
   background-image: url(pets/cat_tapped.png);
 }
 

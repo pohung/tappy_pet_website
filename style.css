@@ -30,29 +30,6 @@ a:hover {
   width: 450pt;
 }
 
-.press_content {
-  margin-right: auto;
-  margin-left: auto;
-  font-size: 1.2em;
-  line-height: 150%;
-  vertical-align: middle;
-  text-align: left;
-  width: 450pt;
-}
-
-.press_title {
-  font-size: 1.8em;
-  line-height: 150%;
-}
-
-.screenshot {
-  width: 200pt;
-}
-
-.pet_tile {
-  width: 131pt;
-}
-
 .pet_image {
   padding: 5pt;
   width: 130pt;
@@ -130,10 +107,6 @@ a:hover {
   content: url(pets/gnome_tapped.png);
 }
 
-video::-webkit-media-controls {
-  display:none !important;
-}
-
 @media screen and (max-width: 720px) {
 
 .pet_image {
@@ -150,27 +123,6 @@ video::-webkit-media-controls {
   margin-left: auto;
   font-size: 10pt;
   max-width: 200pt;
-}
-
-.press_content {
-  margin-right: auto;
-  margin-left: auto;
-  font-size: 10pt;
-  max-width: 200pt;
-  text-align: left;
-}
-
-.press_title {
-  font-size: 18pt;
-  line-height: 150%;
-}
-
-.screenshot {
-  width: 80pt;
-}
-
-.pet_tile {
-  width: 52pt;
 }
 
 }
